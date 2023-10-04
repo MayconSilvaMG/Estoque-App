@@ -31,51 +31,44 @@
     <nav class="botaomenu">
         <ul>
             <li>
-                <input id="menu1" type="button" value="PRODUTOS" ></input>
+                <input id="menu1" type="button" value="PRODUTOS"></input>
             </li>
             <li>
-                <input id="menu2" type="button" value="SERVIÇOS" ></input>
+                <input id="menu2" type="button" value="SERVIÇOS"></input>
             </li>
             <li>
-                <input id="menu3" type="button" value="AJUSTAR" ></input>
+                <input id="menu3" type="button" value="AJUSTAR"></input>
             </li>
         </ul>
         <hr id="linhamenu">
     </nav>
-</body>
 
-<body>
     <div class="barraesquerda"></div>
-    <a>
-        <div class="buttonnew">
-            <button id="buttontext" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
-                aria-controls="offcanvasScrolling">NOVO</button>
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
-                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-                <div class="offcanvas-header">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div>
-                    <h5 id="textproduto">PRODUTO</h5>
-                    <input id="adicionarproduto" type="text" placeholder="Insira o produto">
-                    <h5 id="textlocal">LOCAL</h5>
-                    <input id="adicionarlocal" type="text" placeholder="Insira o local">
-                    <h5 id="textquantidade">QUANTIDADE</h5>
-                    <input id="adicionarquantidade" type="number">
-                    <nav>
-                        <ul>
-                            <input id="btnaddproduto" type="button" value="ADICIONAR" onclick="produto.adicionar()">
-                        </ul>
-                    </nav>
-                </div>
+    <div class="buttonnew">
+        <button id="buttontext" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling"
+            aria-controls="offcanvasScrolling">NOVO</button>
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <!--<a>
-                <input id="buttontext" type="button" value="NOVO"></input>
-            </a> -->
+            <div>
+                <h5 id="textproduto">PRODUTO</h5>
+                <input id="adicionarproduto" type="text" placeholder="Insira o produto">
+                <h5 id="textlocal">LOCAL</h5>
+                <input id="adicionarlocal" type="text" placeholder="Insira o local">
+                <h5 id="textquantidade">QUANTIDADE</h5>
+                <input id="adicionarquantidade" type="number">
+                <nav>
+                    <ul>
+                        <input id="btnaddproduto" type="button" value="ADICIONAR" onclick="produto.adicionar()">
+                    </ul>
+                </nav>
+            </div>
         </div>
-    </a>
+    </div>
     <div>
-        </nav>
+        <!-- HTML code -->
         <table id="tabela">
             <tr>
                 <td>ID</td>
@@ -84,12 +77,13 @@
                 <td>QUANTIDADE</td>
                 <td>AÇÃO</td>
             </tr>
-                <tbody id="tbody">
-                </tbody>
+            <tbody id="tbody">
+                <!-- Table rows will be populated here -->
+            </tbody>
         </table>
+
     </div>
     <script src="../JavaScript/Index.js"></script>
 </body>
-
 
 </html>

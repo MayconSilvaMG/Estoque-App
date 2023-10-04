@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\Estoque\\Estoque\\Estoque.csproj": {}
+    "C:\\workspace\\Estoque-App\\Estoque\\Estoque.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\Estoque\\Estoque\\Estoque.csproj": {
+    "C:\\workspace\\Estoque-App\\Estoque\\Estoque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\Estoque\\Estoque\\Estoque.csproj",
+        "projectUniqueName": "C:\\workspace\\Estoque-App\\Estoque\\Estoque.csproj",
         "projectName": "Estoque",
-        "projectPath": "C:\\workspace\\Estoque\\Estoque\\Estoque.csproj",
+        "projectPath": "C:\\workspace\\Estoque-App\\Estoque\\Estoque.csproj",
         "packagesPath": "C:\\Users\\mdsbr\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\Estoque\\Estoque\\obj\\",
+        "outputPath": "C:\\workspace\\Estoque-App\\Estoque\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mdsbr\\AppData\\Roaming\\NuGet\\NuGet.Config",

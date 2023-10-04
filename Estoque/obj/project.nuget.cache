@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z5Q8aW43qMy4tRR6OV9nrHCxHUEVp/UK5sF8QdPPCYqxoGfGJYjaUA2nvBRIxMFmFFouSbeIDxtpUqLuuGnQdw==",
+  "dgSpecHash": "6rd2FgTUjKs/g6OtfrOrrLdX5lNILGlP1Z9h0k0MkM3UFHfrLO7JyYsI/OpE1oiRQynl9qsKsdVm2CAK7JZNvg==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\Estoque\\Estoque\\Estoque.csproj",
+  "projectFilePath": "C:\\workspace\\Estoque-App\\Estoque\\Estoque.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mdsbr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mdsbr\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
